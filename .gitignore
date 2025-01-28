@@ -1,0 +1,62 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# React (client)
+client/node_modules/
+client/dist/
+client/dist-ssr/
+client/*.local
+
+# Rails (server)
+server/log/
+server/tmp/
+server/storage/
+server/config/credentials.yml.enc
+server/config/master.key
+server/vendor/bundle/
+server/coverage/
+server/config/database.yml
+server/db/schema.rb
+server/db/seeds.rb
+
+# Bundler config
+/.bundle
+
+# Ignore all environment files (except templates)
+/.env*
+!/.env*.erb
+
+# Logs and tempfiles
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# PID files, but keep the directory
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
+
+# Storage (uploaded files in development)
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/
+!/tmp/storage/.keep
+
+# Ignore OS & Editor specific files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
